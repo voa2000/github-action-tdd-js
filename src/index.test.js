@@ -6,6 +6,6 @@ describe('Starter project should', () => {
   });
 
   it('output its address', () => {
-    expect(projectName()).toEqual('North London');
+    expect(projectType()).toEqual('Scrum');
   });
 });
