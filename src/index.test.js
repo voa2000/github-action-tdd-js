@@ -4,4 +4,8 @@ describe('Starter project should', () => {
   it('output its name', () => {
     expect(projectName()).toEqual('Kata starter project');
   });
+
+  it('output its address', () => {
+    expect(projectName()).toEqual('North London');
+  });
 });
