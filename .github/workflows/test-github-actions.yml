@@ -9,4 +9,4 @@ jobs:
         
       - run: cd src
       - run: yarn install
-      - run: yarn serve
+      - run: yarn test
