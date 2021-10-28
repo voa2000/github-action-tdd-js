@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        
+      - run: cd src
+      - run: yarn install
+      - run: yarn serve
