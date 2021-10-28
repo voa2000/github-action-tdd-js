@@ -1,4 +1,4 @@
-import {projectName} from "./index";
+import {projectName, projectType} from "./index";
 
 describe('Starter project should', () => {
   it('output its name', () => {
