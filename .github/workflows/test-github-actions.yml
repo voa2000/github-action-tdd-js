@@ -6,13 +6,3 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-      - name: Run Super Linter
-      - run: standard --fix
-        uses: github/super-linter@v3
-      - name: Install Node
-        uses: actions/setup-node@v2
-        with:
-          yarn-version: '1.22.15'
-      - run: cd server
-      - run: yarn install
-      - run: yarn serve
